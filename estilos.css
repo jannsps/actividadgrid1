@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1.5fr 0.5fr;
+}
+.img-alargada{
+    background-image: url('./img/alargada.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 1;
+    grid-row: 1/4;
+}
+.img-rectangular{
+    background-image: url('./img/rectangular.png');
+    background-size: cover;
+    background-position: center;
+    grid-column: 2/4;
+    grid-row: 1;
+}
+.descripcion{
+    grid-column: 3;
+    grid-row: 2/4;
+    text-align: justify;
+    background-color: darkgoldenrod;
+}
+.img-playa{
+    background-image: url('./img/photo-1488462237308-ecaa28b729d7.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 2;
+    grid-row: 2;
+}
+.titulo{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: blue;
+    text-align: center;
+    font-size: 30px;
+}
